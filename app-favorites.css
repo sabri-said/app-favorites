@@ -1,4 +1,21 @@
+body{
+  margin: unset;
+}
+
 main {
-  background-color: darkslategrey;
+  background-color: #2F4F4F;
   height: 100vh;
+}
+
+#c-main{
+  display: flex;
+}
+
+.c-app{
+  flex: 1;
+}
+
+.c-title-app{
+  text-align: center;
+  color: #B1DB74;
 }
