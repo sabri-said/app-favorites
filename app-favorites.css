@@ -8,45 +8,57 @@ main {
   height: 100vh;
 }
 
+#c-main-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: #263642;
+}
+
 #c-main {
   display: flex;
   justify-content: space-around;
 }
 
 .c-app {
-  /* flex: 1; */
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
 .logo {
   height: 300px;
+  box-shadow: 1px 1px 51px -15px #243244;
+  transition: 0.5s;
 }
 
 .c-app-logo {
   display: flex;
+  justify-content: center;
 }
 
-#c-first-app-logo {
-  background-color: lightpink;
-  border-radius: 5rem;
-  box-shadow: 1px 1px 51px -15px #243244;
+.logo:hover {
+  transform: scale(.9);
 }
 
 #img-first-logo {
-  padding: 2rem;
-  height: 236px;
+  border-radius: 5rem;
 }
 
 #img-second-logo {
-  box-shadow: 1px 1px 51px -15px #243244;
   border-radius: 5rem;
 }
 
 #img-third-logo {
-  box-shadow: 1px 1px 51px -15px #243244;
   border-radius: 5rem;
 }
 
-.c-title-app {
+.c-title-app, .c-details-app  {
   text-align: center;
-  color: #ffaaa5;
+  color: #263642;
+}
+
+.c-details-app {
+  width: 80%;
+  align-self: center;
 }
