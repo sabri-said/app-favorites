@@ -1,21 +1,52 @@
-body{
+body {
   margin: unset;
+  font-family: 'Montserrat', sans-serif;
 }
 
 main {
-  background-color: #2F4F4F;
+  background-color: #a8e6cf;
   height: 100vh;
 }
 
-#c-main{
+#c-main {
+  display: flex;
+  justify-content: space-around;
+}
+
+.c-app {
+  /* flex: 1; */
+}
+
+.logo {
+  height: 300px;
+}
+
+.c-app-logo {
   display: flex;
 }
 
-.c-app{
-  flex: 1;
+#c-first-app-logo {
+  background-color: lightpink;
+  border-radius: 5rem;
+  box-shadow: 1px 1px 51px -15px #243244;
 }
 
-.c-title-app{
+#img-first-logo {
+  padding: 2rem;
+  height: 236px;
+}
+
+#img-second-logo {
+  box-shadow: 1px 1px 51px -15px #243244;
+  border-radius: 5rem;
+}
+
+#img-third-logo {
+  box-shadow: 1px 1px 51px -15px #243244;
+  border-radius: 5rem;
+}
+
+.c-title-app {
   text-align: center;
-  color: #B1DB74;
+  color: #ffaaa5;
 }
