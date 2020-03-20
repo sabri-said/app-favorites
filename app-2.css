@@ -1,0 +1,134 @@
+body {
+  margin: unset;
+  font-family: 'Montserrat', sans-serif;
+  /* overflow: hidden; */
+}
+
+#c-main {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-up, .container-down {
+  display: flex;
+  flex-direction: row;
+  /* height: 50vh; */
+}
+
+.container-up {
+  margin-top: 1rem;
+}
+
+.container-up-left, .container-up-right, .container-down-left, .container-down-right {
+  flex: 1;
+}
+
+.container-up-right {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  /* padding: 0rem 1rem 0rem 1rem; */
+  border-radius: 1rem 0 0 1rem;
+  z-index: 1;
+  align-items: flex-end;
+}
+
+.container-up-left {
+  justify-content: center;
+  z-index: 0;
+  margin-right: -10rem;
+  transition: 0.5s;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-up-left:hover {
+  background-color: #e3f6f5;
+}
+
+.container-up-left h2 {
+  font-size: 2.5rem;
+  padding-right: 13rem;
+  margin-left: 2rem;
+  transition: 1s;
+}
+
+.container-up-left h2:hover {
+  color: #090030;
+  font-size: 3rem;
+}
+
+.container-up-left p {
+  margin-left: 2rem;
+  padding-right: 12rem;
+  text-align: justify;
+  transition: 0.5s;
+}
+
+.container-up-left p:hover {
+  color: #090030;
+  transform: scale(0.9);
+}
+
+.img-up-right {
+  width: 100%;
+  border-radius: 2rem 0 0 2rem;
+}
+
+/* ===================================================== */
+video {
+  height: 29rem;
+}
+
+.container-down {
+  background: #ea5656;
+  height: 37rem;
+  color: bisque;
+}
+
+.container-down-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.container-down-right {
+  justify-content: center;
+  z-index: 0;
+  transition: 0.5s;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-down-right h2 {
+  font-size: 2.5rem;
+  padding-right: 13rem;
+  margin-left: 2rem;
+  transition: 1s;
+}
+
+.container-down-right h2:hover {
+  color: #090030;
+  font-size: 3rem;
+}
+
+.container-down-right p {
+  margin-left: 2rem;
+  padding-right: 12rem;
+  text-align: justify;
+  transition: 0.5s;
+}
+
+.container-down-right p:hover {
+  color: #090030;
+  transform: translate(3rem);
+}
+
+.img-down-left {
+  transition: 0.5s;
+  height: 30rem;
+}
+
+.img-down-left:hover {
+transform: rotate(20deg);}
